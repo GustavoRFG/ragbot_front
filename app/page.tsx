@@ -18,7 +18,7 @@ export default function Home() {
 
     try {
       // const res = await fetch("http://localhost:5001/rag", {
-        const res = await fetch("https://bdb8-2804-1b2-11c0-5e9d-a653-33c6-db20-97cc.ngrok-free.app/rag", {
+        const res = await fetch("https://1492-2804-1b2-11c0-5e9d-a653-33c6-db20-97cc.ngrok-free.app/rag", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question }),
