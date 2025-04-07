@@ -41,11 +41,7 @@ export default function Home() {
       
       <h1 className="text-3xl sm:text-5xl font-bold mt-4 text-center">EducBot - Assistente Escolar</h1>
       <p className="text-lg sm:text-xl text-center mt-2 opacity-90">
-        Tire suas dúvidas sobre a escola, horários, regras e muito mais. Agora com respostas geradas a partir dos documentos oficiais.
-      </p>
-
-      <p className="mt-4 text-center text-sm sm:text-lg opacity-80">
-        Digite sua pergunta sobre o horário das aulas, matrícula, atividades ou qualquer outra dúvida escolar.
+        Tire suas dúvidas sobre a escola, horário das aulas, matrícula, atividades ou qualquer outra dúvida escolar.
       </p>
 
       <div className="w-full max-w-xl mt-6 flex flex-col items-center">
