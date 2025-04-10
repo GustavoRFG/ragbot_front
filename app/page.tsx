@@ -18,7 +18,7 @@ export default function Home() {
 
     try {
       // const res = await fetch("http://localhost:5001/rag", {
-        const res = await fetch("https://4139-2804-1b2-11c0-8707-c947-be94-4554-d3ec.ngrok-free.app/rag", {
+        const res = await fetch("https://caec-2804-1b2-11c0-8707-3125-49ce-fbaf-5c72.ngrok-free.app/rag", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question }),
@@ -35,13 +35,13 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col items-center min-h-screen bg-gradient-to-br from-blue-500 to-purple-600 text-white p-6">
+    <div className="flex flex-col items-center min-h-screen bg-gradient-to-br from-blue-600 to-yellow-500 text-white p-6">
       {/* LOGO */}
       <Image src="/logo.png" alt="Chatbot Logo" width={120} height={120} />
       
       <h1 className="text-3xl sm:text-5xl font-bold mt-4 text-center">EducBot - Assistente Escolar</h1>
       <p className="text-lg sm:text-xl text-center mt-2 opacity-90">
-        Tire suas dúvidas sobre a escola, horário das aulas, matrícula, atividades ou qualquer outra dúvida escolar.
+        Tire suas dúvidas sobre a escola, horário das aulas, matrícula, atividades ou qualquer outra questão escolar.
       </p>
 
       <div className="w-full max-w-xl mt-6 flex flex-col items-center">
@@ -54,7 +54,7 @@ export default function Home() {
         />
         <button
           onClick={sendQuestion}
-          className="mt-3 px-6 py-3 bg-yellow-500 hover:bg-yellow-600 transition rounded-xl font-bold"
+          className="mt-3 px-6 py-3 bg-blue-500 hover:bg-blue-600 transition rounded-xl font-bold"
         >
           Perguntar
         </button>
